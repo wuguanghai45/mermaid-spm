@@ -1,0 +1,121 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.11.12
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/hotoo/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/79/bpzjmcnj1838h2d_m9gnykfm0000gn/T/npm-13672-k76CHDPo/1401255473411-0.8199462462216616/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/79/bpzjmcnj1838h2d_m9gnykfm0000gn/T/npm-13672-k76CHDPo/1401255473411-0.8199462462216616/tmp.tgz
+12 verbose folder .
+13 info prepublish Validator@0.0.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/hotoo/.npm/1f1177db-tar.lock
+16 silly lockFile b192b784-73411-0-8199462462216616-tmp-tgz tar:///var/folders/79/bpzjmcnj1838h2d_m9gnykfm0000gn/T/npm-13672-k76CHDPo/1401255473411-0.8199462462216616/tmp.tgz
+17 verbose lock tar:///var/folders/79/bpzjmcnj1838h2d_m9gnykfm0000gn/T/npm-13672-k76CHDPo/1401255473411-0.8199462462216616/tmp.tgz /Users/hotoo/.npm/b192b784-73411-0-8199462462216616-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile b192b784-73411-0-8199462462216616-tmp-tgz tar:///var/folders/79/bpzjmcnj1838h2d_m9gnykfm0000gn/T/npm-13672-k76CHDPo/1401255473411-0.8199462462216616/tmp.tgz
+21 silly lockFile b192b784-73411-0-8199462462216616-tmp-tgz tar:///var/folders/79/bpzjmcnj1838h2d_m9gnykfm0000gn/T/npm-13672-k76CHDPo/1401255473411-0.8199462462216616/tmp.tgz
+22 verbose tar unpack /var/folders/79/bpzjmcnj1838h2d_m9gnykfm0000gn/T/npm-13672-k76CHDPo/1401255473411-0.8199462462216616/tmp.tgz
+23 silly lockFile f934697b-73411-0-8199462462216616-package tar:///var/folders/79/bpzjmcnj1838h2d_m9gnykfm0000gn/T/npm-13672-k76CHDPo/1401255473411-0.8199462462216616/package
+24 verbose lock tar:///var/folders/79/bpzjmcnj1838h2d_m9gnykfm0000gn/T/npm-13672-k76CHDPo/1401255473411-0.8199462462216616/package /Users/hotoo/.npm/f934697b-73411-0-8199462462216616-package.lock
+25 silly lockFile b192b784-73411-0-8199462462216616-tmp-tgz tar:///var/folders/79/bpzjmcnj1838h2d_m9gnykfm0000gn/T/npm-13672-k76CHDPo/1401255473411-0.8199462462216616/tmp.tgz
+26 verbose lock tar:///var/folders/79/bpzjmcnj1838h2d_m9gnykfm0000gn/T/npm-13672-k76CHDPo/1401255473411-0.8199462462216616/tmp.tgz /Users/hotoo/.npm/b192b784-73411-0-8199462462216616-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry index.js
+31 silly gunzTarPerm extractEntry Makefile
+32 silly lockFile f934697b-73411-0-8199462462216616-package tar:///var/folders/79/bpzjmcnj1838h2d_m9gnykfm0000gn/T/npm-13672-k76CHDPo/1401255473411-0.8199462462216616/package
+33 silly lockFile f934697b-73411-0-8199462462216616-package tar:///var/folders/79/bpzjmcnj1838h2d_m9gnykfm0000gn/T/npm-13672-k76CHDPo/1401255473411-0.8199462462216616/package
+34 silly lockFile b192b784-73411-0-8199462462216616-tmp-tgz tar:///var/folders/79/bpzjmcnj1838h2d_m9gnykfm0000gn/T/npm-13672-k76CHDPo/1401255473411-0.8199462462216616/tmp.tgz
+35 silly lockFile b192b784-73411-0-8199462462216616-tmp-tgz tar:///var/folders/79/bpzjmcnj1838h2d_m9gnykfm0000gn/T/npm-13672-k76CHDPo/1401255473411-0.8199462462216616/tmp.tgz
+36 verbose tar pack [ '/Users/hotoo/.npm/Validator/0.0.0/package.tgz',
+36 verbose tar pack   '/var/folders/79/bpzjmcnj1838h2d_m9gnykfm0000gn/T/npm-13672-k76CHDPo/1401255473411-0.8199462462216616/package' ]
+37 verbose tarball /Users/hotoo/.npm/Validator/0.0.0/package.tgz
+38 verbose folder /var/folders/79/bpzjmcnj1838h2d_m9gnykfm0000gn/T/npm-13672-k76CHDPo/1401255473411-0.8199462462216616/package
+39 silly lockFile f934697b-73411-0-8199462462216616-package tar:///var/folders/79/bpzjmcnj1838h2d_m9gnykfm0000gn/T/npm-13672-k76CHDPo/1401255473411-0.8199462462216616/package
+40 verbose lock tar:///var/folders/79/bpzjmcnj1838h2d_m9gnykfm0000gn/T/npm-13672-k76CHDPo/1401255473411-0.8199462462216616/package /Users/hotoo/.npm/f934697b-73411-0-8199462462216616-package.lock
+41 silly lockFile e5aa13e8--npm-Validator-0-0-0-package-tgz tar:///Users/hotoo/.npm/Validator/0.0.0/package.tgz
+42 verbose lock tar:///Users/hotoo/.npm/Validator/0.0.0/package.tgz /Users/hotoo/.npm/e5aa13e8--npm-Validator-0-0-0-package-tgz.lock
+43 silly lockFile f934697b-73411-0-8199462462216616-package tar:///var/folders/79/bpzjmcnj1838h2d_m9gnykfm0000gn/T/npm-13672-k76CHDPo/1401255473411-0.8199462462216616/package
+44 silly lockFile f934697b-73411-0-8199462462216616-package tar:///var/folders/79/bpzjmcnj1838h2d_m9gnykfm0000gn/T/npm-13672-k76CHDPo/1401255473411-0.8199462462216616/package
+45 silly lockFile e5aa13e8--npm-Validator-0-0-0-package-tgz tar:///Users/hotoo/.npm/Validator/0.0.0/package.tgz
+46 silly lockFile e5aa13e8--npm-Validator-0-0-0-package-tgz tar:///Users/hotoo/.npm/Validator/0.0.0/package.tgz
+47 silly lockFile a6e727b0-otoo-npm-Validator-0-0-0-package /Users/hotoo/.npm/Validator/0.0.0/package
+48 verbose lock /Users/hotoo/.npm/Validator/0.0.0/package /Users/hotoo/.npm/a6e727b0-otoo-npm-Validator-0-0-0-package.lock
+49 silly lockFile a6e727b0-otoo-npm-Validator-0-0-0-package /Users/hotoo/.npm/Validator/0.0.0/package
+50 silly lockFile a6e727b0-otoo-npm-Validator-0-0-0-package /Users/hotoo/.npm/Validator/0.0.0/package
+51 verbose tar unpack /Users/hotoo/.npm/Validator/0.0.0/package.tgz
+52 silly lockFile 8058a10c-otoo-npm-Validator-0-0-0-package tar:///Users/hotoo/.npm/Validator/0.0.0/package
+53 verbose lock tar:///Users/hotoo/.npm/Validator/0.0.0/package /Users/hotoo/.npm/8058a10c-otoo-npm-Validator-0-0-0-package.lock
+54 silly lockFile e5aa13e8--npm-Validator-0-0-0-package-tgz tar:///Users/hotoo/.npm/Validator/0.0.0/package.tgz
+55 verbose lock tar:///Users/hotoo/.npm/Validator/0.0.0/package.tgz /Users/hotoo/.npm/e5aa13e8--npm-Validator-0-0-0-package-tgz.lock
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 silly gunzTarPerm extractEntry package.json
+58 silly gunzTarPerm extractEntry README.md
+59 silly gunzTarPerm extractEntry index.js
+60 silly gunzTarPerm extractEntry Makefile
+61 silly lockFile 8058a10c-otoo-npm-Validator-0-0-0-package tar:///Users/hotoo/.npm/Validator/0.0.0/package
+62 silly lockFile 8058a10c-otoo-npm-Validator-0-0-0-package tar:///Users/hotoo/.npm/Validator/0.0.0/package
+63 silly lockFile e5aa13e8--npm-Validator-0-0-0-package-tgz tar:///Users/hotoo/.npm/Validator/0.0.0/package.tgz
+64 silly lockFile e5aa13e8--npm-Validator-0-0-0-package-tgz tar:///Users/hotoo/.npm/Validator/0.0.0/package.tgz
+65 verbose chmod /Users/hotoo/.npm/Validator/0.0.0/package.tgz 644
+66 verbose chown /Users/hotoo/.npm/Validator/0.0.0/package.tgz [ 501, 20 ]
+67 silly lockFile 3a52ce78- .
+68 silly lockFile 3a52ce78- .
+69 silly publish { name: 'Validator',
+69 silly publish   version: '0.0.0',
+69 silly publish   description: 'Universal Validator.',
+69 silly publish   main: 'index.js',
+69 silly publish   scripts: { test: 'make test' },
+69 silly publish   author: { name: 'hotoo', email: 'hotoo.cn@gmail.com' },
+69 silly publish   spm: { main: 'index.js' },
+69 silly publish   license: 'MIT',
+69 silly publish   readme: '\n# README\n',
+69 silly publish   readmeFilename: 'README.md',
+69 silly publish   _id: 'Validator@0.0.0',
+69 silly publish   dist: { shasum: '4acee6d7958e364483eab8378884b7d9f105f7e2' },
+69 silly publish   _from: '.' }
+70 verbose url raw Validator
+71 verbose url resolving [ 'https://registry.npmjs.org/', './Validator' ]
+72 verbose url resolved https://registry.npmjs.org/Validator
+73 info trying registry request attempt 1 at 13:37:53
+74 http PUT https://registry.npmjs.org/Validator
+75 http 403 https://registry.npmjs.org/Validator
+76 error publish Failed PUT 403
+77 error Error: forbidden New packages must have all-lowercase names: Validator
+77 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+77 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+77 error     at Request.EventEmitter.emit (events.js:107:17)
+77 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+77 error     at Request.EventEmitter.emit (events.js:126:20)
+77 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+77 error     at IncomingMessage.EventEmitter.emit (events.js:126:20)
+77 error     at _stream_readable.js:895:16
+77 error     at process._tickCallback (node.js:339:11)
+78 error If you need help, you may report this *entire* log,
+78 error including the npm and node versions, at:
+78 error     <http://github.com/npm/npm/issues>
+79 error System Darwin 13.2.0
+80 error command "node" "/usr/local/bin/npm" "publish"
+81 error cwd /Users/hotoo/workbench/JavaScript/ken
+82 error node -v v0.11.12
+83 error npm -v 1.4.3
+84 verbose exit [ 1, true ]

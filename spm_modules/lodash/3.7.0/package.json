@@ -1,0 +1,41 @@
+{
+  "name": "lodash",
+  "version": "3.7.0",
+  "main": "lodash.src.js",
+  "devDependencies": {
+    "curl-amd": "0.8.12",
+    "dojo": "~1.10.0",
+    "jquery": "~1.11.0",
+    "platform": "~1.3.0",
+    "qunit-extras": "~1.4.0",
+    "qunitjs": "~1.17.0",
+    "requirejs": "~2.1.0"
+  },
+  "spm": {
+    "main": "lodash.js",
+    "ignore": [
+      "doc",
+      "perf",
+      "test",
+      "vendor"
+    ]
+  },
+  "volo": {
+    "type": "directory",
+    "ignore": [
+      ".*",
+      "*.custom.*",
+      "*.log",
+      "*.map",
+      "*.md",
+      "lodash.src.js",
+      "bower.json",
+      "component.json",
+      "doc",
+      "node_modules",
+      "perf",
+      "test",
+      "vendor"
+    ]
+  }
+}
